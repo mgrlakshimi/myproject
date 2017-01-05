@@ -1,0 +1,46 @@
+{
+  "onos_controller":
+  {
+    "url":"http://172.27.3.166:8181/onos/ui/index.html",
+    "port":"8181",
+    "version":""
+  },
+  "onos_credentials":
+  {
+    "username":"karaf",
+    "password":"karaf"
+  },
+  "onos_loginxpath":
+  {
+    "username":"//input",
+    "password":"//tr[2]/td[2]/input",
+    "login_button":"//tr[3]/td/input",
+    "logout_button":"//a"
+  },
+  "Menu":
+  {
+
+    "mainmenu":"//div[@id='mast']/img",
+    "applications":"//div[3]/a",
+    "settings": "//a[2]",
+    "clusterNodes": "//a[3]",
+    "topology": "//a[5]",
+    "devices": "//a[6]",
+    "links": "//a[7]",
+    "hosts": "//a[8]",
+    "intents": "//a[9]",
+    "tunnels": "//a[10]"
+  },
+  "topo":
+  {
+    "topolink":"//*[@id='topo-p-summary']/div[2]/table/tbody/tr[1]/td[2]",
+    "toposummary":"//*[@id='topo-p-summary']/div[2]/table/tbody"
+  },
+
+  "navigate_to_device":
+  {
+   "navigatetodevice": "//*[@id='mast']/img[1]"
+
+  }
+}
+
